@@ -1,5 +1,9 @@
+package leetcode;
+
 import java.util.ArrayList;
 import java.util.List;
+
+// https://leetcode.com/problems/fizz-buzz/submissions/
 
 class Solution {
     public List<String> fizzBuzz(int n) {
