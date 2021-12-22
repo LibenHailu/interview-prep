@@ -1,3 +1,5 @@
+import sys
+
 n = list(map(int,input().split(" ")))
 
 x,y = 0,0
