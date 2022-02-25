@@ -25,11 +25,10 @@ def cookies(k, A):
 
     heapq.heapify(h)
 
-    if h[0] >= k:
-        print(-1)
+    # if len(h) <= 2:
+    #     return -1
 
-    while h[0] < k:
-        print("i am here")
+    while len(h) >= 2 and h[0] < k:
         counter += 1
 
         first_value = heapq.heappop(h)
@@ -38,24 +37,25 @@ def cookies(k, A):
         sum = first_value + 2 * second_value
         heapq.heappush(h, sum)
 
-    print(counter)
+    if h[0] < k:
+        return -1
+
+    return counter
 
 
 if __name__ == '__main__':
-    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    # first_multiple_input = input().rstrip().split()
+    first_multiple_input = input().rstrip().split()
 
-    # n = int(first_multiple_input[0])
+    n = int(first_multiple_input[0])
 
-    # k = int(first_multiple_input[1])
+    k = int(first_multiple_input[1])
 
-    # A = list(map(int, input().rstrip().split()))
+    A = list(map(int, input().rstrip().split()))
 
-    # result = cookies(k, A)
+    result = cookies(k, A)
 
-    # fptr.write(str(result) + '\n')
+    fptr.write(str(result) + '\n')
 
-    # fptr.close()
-    print(cookies(7,
-                  [1, 2, 3, 9, 10, 12]))
+    fptr.close()
