@@ -3,26 +3,60 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
-#         breaks if board is empty
-        def in_bound(r, c): return 0 <= r < len(
-            board) and 0 <= c < len(board[0])
 
-        DIR = [[0, -1], [-1, 0], [0, 1], [1, 0]]
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
-        stack = [(1, 1)]
+        def inBound(row, col): return 0 <= row < len(
+            board) and 0 <= col < len(board[0])
 
-        while stack:
+        def surounded(i, j):
+            visited = set()
+            stack = [(i, j)]
 
-            r, c = stack.pop()
+            visited.add((i, j))
 
-            if board[r][c] == 'O':
-                board[r][c] = 'X'
+            while stack:
+                node = stack.pop()
 
-            for bound in DIR:
-                newr = r + bound[0]
-                newc = c + bound[1]
+                for direction in directions:
+                    new_row = node[0] + direction[0]
+                    new_col = node[1] + direction[1]
 
-                if in_bound(newr, newc):
-                    stack.append((newr, newc))
+                    if new_row < 1 or new_col < 1 or new_row > len(board) - 2 or new_col > len(board[0]) - 2:
+                        if inBound(new_row, new_col) and board[new_row][new_col] == "O":
+                            return False
+
+                    if inBound(new_row, new_col) and board[new_row][new_col] == "O" and (new_row, new_col) not in visited:
+                        stack.append((new_row, new_col))
+                        visited.add((new_row, new_col))
+
+            return True
+
+        def mark(i, j):
+            visited = set()
+            stack = [(i, j)]
+
+            visited.add((i, j))
+
+            while stack:
+                node = stack.pop()
+
+                board[node[0]][node[1]] = "X"
+
+                for direction in directions:
+                    new_row = node[0] + direction[0]
+                    new_col = node[1] + direction[1]
+                    if board[new_row][new_col] == "O" and (new_row, new_col) not in visited:
+                        stack.append((new_row, new_col))
+                        visited.add((new_row, new_col))
+
+        for i in range(1, len(board) - 1):
+            for j in range(1, len(board[0]) - 1):
+                if board[i][j] == "O":
+                    isSurounded = surounded(i, j)
+
+                    if isSurounded:
+
+                        mark(i, j)
 
         return board
