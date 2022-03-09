@@ -21,12 +21,7 @@ class TopVotedCandidate:
                 best = mid
                 left = mid + 1
 
-            # elif t > self.times[mid]:
-            #     best = mid
-            #     left = mid + 1
-
             else:
-
                 right = mid
 
         return self.persons[best]
