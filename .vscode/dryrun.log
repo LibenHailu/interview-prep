@@ -1,5 +1,5 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/liben/Desktop/interview-prep/interview-prep'
-git push https://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@github.com/LibenHailu/interview-prep.git
+git push https://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@github.com/LibenHailu/interview-prep.git
 make: Leaving directory '/home/liben/Desktop/interview-prep/interview-prep'
  

@@ -1,2 +1,2 @@
 push:
-	git push https://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@github.com/LibenHailu/interview-prep.git
+	git push https://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@github.com/LibenHailu/interview-prep.git
