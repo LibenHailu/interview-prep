@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Mar 31 17:32:18 2022
+# Make data base, printed on Tue Apr  5 20:36:15 2022
 
 # Variables
 
@@ -53,7 +53,7 @@ SNAP_DATA = /var/snap/code/92
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:52707
+JOURNAL_STREAM = 8:44030
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -77,11 +77,9 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-_ = /snap/code/92/usr/share/code/code
+MANAGERPID = 2071
 # environment
-MANAGERPID = 1958
-# environment
-LESSOPEN = | /usr/bin/lesspipe %s
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bf31b674-4bad-488c-83e6-9b744b0f37da.sock
 # environment
 LC_NAME = en_US.UTF-8
 # environment
@@ -91,11 +89,11 @@ GSETTINGS_SCHEMA_DIR = /snap/code/92/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/liben/.local/bin:/home/liben/anaconda3/bin:/home/liben/anaconda3/condabin:/opt/ros/noetic/bin:/home/liben/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/liben/go/bin
+PATH = /home/liben/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/liben-HP-Pavilion-Laptop-15-cs0xxx:@/tmp/.ICE-unix/2391,unix/liben-HP-Pavilion-Laptop-15-cs0xxx:/tmp/.ICE-unix/2391
+SESSION_MANAGER = local/liben-HP-Pavilion-Laptop-15-cs0xxx:@/tmp/.ICE-unix/2474,unix/liben-HP-Pavilion-Laptop-15-cs0xxx:/tmp/.ICE-unix/2474
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -103,11 +101,7 @@ GDK_PIXBUF_MODULE_FILE = /home/liben/snap/code/common/.cache/gdk-pixbuf-loaders.
 # environment
 SNAP = /snap/code/92
 # environment
-GOPATH = /home/liben/go/src
-# environment
 SNAP_VERSION = e18005f0
-# environment
-CONDA_PREFIX = /home/liben/anaconda3
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -117,25 +111,21 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = e44d28d7c0d64e6caa8b3af214459085
+INVOCATION_ID = 351ad2dd55d645cbbc1ee25019698ebe
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/92/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
-LS_COLORS = 
-# environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 109555
+GIO_LAUNCHED_DESKTOP_FILE_PID = 102114
 # automatic
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
-# environment
-CONDA_EXE = /home/liben/anaconda3/bin/conda
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -145,7 +135,7 @@ PWD = /home/liben/Desktop/interview-prep/interview-prep
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2350
+SSH_AGENT_PID = 2443
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -154,8 +144,6 @@ GTK_MODULES = gail:atk-bridge
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/liben
-# environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
@@ -168,8 +156,6 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # environment
 SNAP_CONTEXT = kH4dn9ljBtPsgjYMDdUF49XXscIN04sIHOT-sli4V6-X-_nEAVw6
-# environment
-CONDA_PROMPT_MODIFIER = (base) 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -186,8 +172,6 @@ GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 LC_TIME = en_US.UTF-8
 # environment
 SNAP_REAL_HOME = /home/liben
-# environment
-CONDA_DEFAULT_ENV = base
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -200,8 +184,6 @@ SNAP_USER_DATA = /home/liben/snap/code/92
 SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-16ffc8c4-7869-43dd-9a49-7d968ea8d383.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -214,14 +196,10 @@ LC_MONETARY = en_US.UTF-8
 .DEFAULT_GOAL := push
 # environment
 XDG_CURRENT_DESKTOP = Unity
-# environment
-GOROOT = /usr/local/go
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 LC_TELEPHONE = en_US.UTF-8
-# environment
-CONDA_SHLVL = 1
 # default
 MAKE_COMMAND := make
 # default
@@ -263,8 +241,6 @@ SNAP_NAME = code
 # environment
 LC_ALL = C
 # environment
-CONDA_PYTHON_EXE = /home/liben/anaconda3/bin/python
-# environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # automatic
 ^F = $(notdir $^)
@@ -272,8 +248,6 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 SUFFIXES := 
 # environment
 SNAP_REEXEC = 
-# environment
-_CE_M = 
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
@@ -289,15 +263,12 @@ LC_ADDRESS = en_US.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 109628
-# environment
-_CE_CONDA = 
+VSCODE_PID = 102168
 # variable set hash-table stats:
-# Load=140/1024=14%, Rehash=0, Collisions=24/165=15%
+# Load=126/1024=12%, Rehash=0, Collisions=21/151=14%
 
 # Pattern-specific Variable Values
 
- 
 # No pattern-specific variable values.
 
 # Directories
@@ -316,6 +287,7 @@ _CE_CONDA =
 all:
 #  Command line target.
 #  Implicit rule search has been done.
+ 
 #  File does not exist.
 #  File has not been updated.
 
@@ -353,6 +325,6 @@ Makefile:
 # strcache performance: lookups = 27 / hit rate = 18%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Thu Mar 31 17:32:18 2022
+# Finished Make data base on Tue Apr  5 20:36:15 2022
 
  
