@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Apr 12 23:45:18 2022
+# Make data base, printed on Thu Apr 21 20:40:07 2022
 
 # Variables
 
@@ -47,13 +47,13 @@ CURDIR := /home/liben/Desktop/interview-prep/interview-prep
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/93
+SNAP_DATA = /var/snap/code/94
 # environment
 VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:49879
+JOURNAL_STREAM = 8:55502
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -77,7 +77,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 2295
+MANAGERPID = 5530
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -85,7 +85,7 @@ LC_NAME = en_US.UTF-8
 # environment
 VSCODE_CWD = /home/liben/Desktop/interview-prep/interview-prep
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/93/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/94/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -93,17 +93,17 @@ PATH = /home/liben/anaconda3/bin:/home/liben/anaconda3/condabin:/opt/ros/noetic/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/liben-HP-Pavilion-Laptop-15-cs0xxx:@/tmp/.ICE-unix/2638,unix/liben-HP-Pavilion-Laptop-15-cs0xxx:/tmp/.ICE-unix/2638
+SESSION_MANAGER = local/liben-HP-Pavilion-Laptop-15-cs0xxx:@/tmp/.ICE-unix/5827,unix/liben-HP-Pavilion-Laptop-15-cs0xxx:/tmp/.ICE-unix/5827
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/liben/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/93
+SNAP = /snap/code/94
 # environment
 GOPATH = /home/liben/go/src
 # environment
-SNAP_VERSION = 8dfae7a5
+SNAP_VERSION = dfd34e82
 # environment
 CONDA_PREFIX = /home/liben/anaconda3
 # environment
@@ -115,9 +115,9 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 6eedd52a24b940b9b1268fbd32c82dfd
+INVOCATION_ID = f7595a876c814c759fefb5fbc821d2f0
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/93/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/94/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -141,7 +141,7 @@ PWD = /home/liben/Desktop/interview-prep/interview-prep
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2606
+SSH_AGENT_PID = 5796
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -155,7 +155,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/liben/.config/Code/CachedData/8dfae7a5cd50421d10cd99cb873990460525a898
+VSCODE_CODE_CACHE_PATH = /home/liben/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
 # environment
 LOGNAME = liben
 # environment
@@ -193,19 +193,19 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/liben/snap/code/93
+SNAP_USER_DATA = /home/liben/snap/code/94
 # environment
 SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-97263d0c-16ea-4645-b2b6-cb4933b5090c.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-fa427b6c-2729-44d8-b2b9-182b7840df03.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
 USER = liben
 # environment
-SNAP_REVISION = 93
+SNAP_REVISION = 94
 # environment
 LC_MONETARY = en_US.UTF-8
 # makefile
@@ -229,7 +229,7 @@ OLDPWD = /home/liben/Desktop/interview-prep
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-3e5ca092-1.66.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-3e5ca092-1.66.2-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -265,11 +265,11 @@ CONDA_PYTHON_EXE = /home/liben/anaconda3/bin/python
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/b70400b6_901c_4bb4_b29c_20e7c458d975
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/63fbdd98_6a03_463f_a02c_7b3c2901a5f7
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.238
+GNOME_TERMINAL_SERVICE = :1.2342
 # default
 SUFFIXES := 
 # environment
@@ -285,6 +285,7 @@ WINDOWPATH = 2
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # default
+ 
 .RECIPEPREFIX := 
 # environment
 LC_ADDRESS = en_US.UTF-8
@@ -293,11 +294,10 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 91871
+VSCODE_PID = 128705
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
- 
 # Load=142/1024=14%, Rehash=0, Collisions=21/167=13%
 
 # Pattern-specific Variable Values
@@ -306,9 +306,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2053, inode 30544251): 16 files, no impossibilities.
+# . (device 2053, inode 30544251): 17 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -351,12 +351,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 199 B / avg = 9 B
-# current buf: size = 8162 B / used = 199 B / count = 22 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 23 / storage = 205 B / avg = 8 B
+# current buf: size = 8162 B / used = 205 B / count = 23 / avg = 8 B
 
-# strcache performance: lookups = 27 / hit rate = 18%
+# strcache performance: lookups = 28 / hit rate = 17%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Tue Apr 12 23:45:18 2022
+# Load=23/8192=0%, Rehash=0, Collisions=1/28=4%
+# Finished Make data base on Thu Apr 21 20:40:07 2022
 
  
