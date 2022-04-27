@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Apr 21 20:40:07 2022
+# Make data base, printed on Wed Apr 27 12:02:35 2022
 
 # Variables
 
@@ -53,7 +53,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:55502
+JOURNAL_STREAM = 8:51891
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -71,13 +71,15 @@ USERNAME = liben
 # environment
 MAKELEVEL := 0
 # environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 5530
+MANAGERPID = 2489
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -93,7 +95,7 @@ PATH = /home/liben/anaconda3/bin:/home/liben/anaconda3/condabin:/opt/ros/noetic/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/liben-HP-Pavilion-Laptop-15-cs0xxx:@/tmp/.ICE-unix/5827,unix/liben-HP-Pavilion-Laptop-15-cs0xxx:/tmp/.ICE-unix/5827
+SESSION_MANAGER = local/liben-HP-Pavilion-Laptop-15-cs0xxx:@/tmp/.ICE-unix/2736,unix/liben-HP-Pavilion-Laptop-15-cs0xxx:/tmp/.ICE-unix/2736
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -115,7 +117,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = f7595a876c814c759fefb5fbc821d2f0
+INVOCATION_ID = 0cc4b827ab3f42d290950ca12d925ce5
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/94/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -141,7 +143,7 @@ PWD = /home/liben/Desktop/interview-prep/interview-prep
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 5796
+SSH_AGENT_PID = 2705
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -199,7 +201,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-fa427b6c-2729-44d8-b2b9-182b7840df03.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6a308d22-f9f4-4de1-8429-a025a806c75e.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -246,6 +248,8 @@ LC_PAPER = en_US.UTF-8
 LC_IDENTIFICATION = en_US.UTF-8
 # environment
 QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
 # default
 MAKEFILES := 
 # environment
@@ -265,11 +269,11 @@ CONDA_PYTHON_EXE = /home/liben/anaconda3/bin/python
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/63fbdd98_6a03_463f_a02c_7b3c2901a5f7
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/05ba54cc_5de1_4577_ac01_bfec4b272471
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.2342
+GNOME_TERMINAL_SERVICE = :1.892
 # default
 SUFFIXES := 
 # environment
@@ -280,12 +284,12 @@ _CE_M =
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
 WINDOWPATH = 2
+ 
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # default
- 
 .RECIPEPREFIX := 
 # environment
 LC_ADDRESS = en_US.UTF-8
@@ -294,11 +298,11 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 128705
+VSCODE_PID = 84955
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=142/1024=14%, Rehash=0, Collisions=21/167=13%
+# Load=144/1024=14%, Rehash=0, Collisions=21/169=12%
 
 # Pattern-specific Variable Values
 
@@ -357,6 +361,6 @@ Makefile:
 # strcache performance: lookups = 28 / hit rate = 17%
 # hash-table stats:
 # Load=23/8192=0%, Rehash=0, Collisions=1/28=4%
-# Finished Make data base on Thu Apr 21 20:40:07 2022
+# Finished Make data base on Wed Apr 27 12:02:35 2022
 
  
