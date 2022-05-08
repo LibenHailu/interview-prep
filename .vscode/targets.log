@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May  2 14:42:38 2022
+# Make data base, printed on Sat May  7 21:42:22 2022
 
 # Variables
 
@@ -47,13 +47,13 @@ CURDIR := /home/liben/Desktop/interview-prep/interview-prep
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/94
+SNAP_DATA = /var/snap/code/95
 # environment
 VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:48992
+JOURNAL_STREAM = 8:58982
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -79,7 +79,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 2406
+MANAGERPID = 2459
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -87,7 +87,7 @@ LC_NAME = en_US.UTF-8
 # environment
 VSCODE_CWD = /home/liben/Desktop/interview-prep/interview-prep
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/94/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/95/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -95,17 +95,17 @@ PATH = /home/liben/anaconda3/bin:/home/liben/anaconda3/condabin:/opt/ros/noetic/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/liben-HP-Pavilion-Laptop-15-cs0xxx:@/tmp/.ICE-unix/2658,unix/liben-HP-Pavilion-Laptop-15-cs0xxx:/tmp/.ICE-unix/2658
+SESSION_MANAGER = local/liben-HP-Pavilion-Laptop-15-cs0xxx:@/tmp/.ICE-unix/2953,unix/liben-HP-Pavilion-Laptop-15-cs0xxx:/tmp/.ICE-unix/2953
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/liben/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/94
+SNAP = /snap/code/95
 # environment
 GOPATH = /home/liben/go/src
 # environment
-SNAP_VERSION = dfd34e82
+SNAP_VERSION = 57fd6d01
 # environment
 CONDA_PREFIX = /home/liben/anaconda3
 # environment
@@ -117,9 +117,9 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 3ca23c53b19a4eabaf418717b0eb2abb
+INVOCATION_ID = 0bd1eb518a254695a4f2fb9c3cafd72a
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/94/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/95/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -143,7 +143,7 @@ PWD = /home/liben/Desktop/interview-prep/interview-prep
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2625
+SSH_AGENT_PID = 2839
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -157,7 +157,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/liben/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+VSCODE_CODE_CACHE_PATH = /home/liben/.config/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
 # environment
 LOGNAME = liben
 # environment
@@ -195,19 +195,19 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/liben/snap/code/94
+SNAP_USER_DATA = /home/liben/snap/code/95
 # environment
 SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-22d8ff14-cd8d-421b-9493-d0c72be394f2.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a7fd05ea-917d-4489-ae81-4d76dc8fc373.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
 USER = liben
 # environment
-SNAP_REVISION = 94
+SNAP_REVISION = 95
 # environment
 LC_MONETARY = en_US.UTF-8
 # makefile
@@ -230,9 +230,8 @@ OLDPWD = /home/liben/Desktop/interview-prep
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
- 
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-3e5ca092-1.66.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-3e5ca092-1.67.0-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -270,11 +269,11 @@ CONDA_PYTHON_EXE = /home/liben/anaconda3/bin/python
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/32e92337_0dcf_4822_aecf_30bcc07ee531
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1d8381db_6e4f_4941_9c91_05320e31deff
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.153
+GNOME_TERMINAL_SERVICE = :1.3659
 # default
 SUFFIXES := 
 # environment
@@ -283,6 +282,7 @@ SNAP_REEXEC =
 _CE_M = 
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
+ 
 # environment
 WINDOWPATH = 2
 # default
@@ -298,7 +298,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 9996
+VSCODE_PID = 84863
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -331,7 +331,6 @@ push:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 #  recipe to execute (from 'Makefile', line 2):
 	git push https://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@github.com/LibenHailu/interview-prep.git
 
@@ -362,6 +361,6 @@ Makefile:
 # strcache performance: lookups = 28 / hit rate = 17%
 # hash-table stats:
 # Load=23/8192=0%, Rehash=0, Collisions=1/28=4%
-# Finished Make data base on Mon May  2 14:42:38 2022
+# Finished Make data base on Sat May  7 21:42:22 2022
 
  
