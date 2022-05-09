@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat May  7 21:42:22 2022
+# Make data base, printed on Mon May  9 18:23:49 2022
 
 # Variables
 
@@ -201,7 +201,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a7fd05ea-917d-4489-ae81-4d76dc8fc373.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6f70db74-f4f0-4c25-b061-00e0d7c4485b.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -269,20 +269,20 @@ CONDA_PYTHON_EXE = /home/liben/anaconda3/bin/python
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1d8381db_6e4f_4941_9c91_05320e31deff
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1da7ba98_bd3e_44f8_8116_3e556482fcac
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.3659
+GNOME_TERMINAL_SERVICE = :1.4829
 # default
 SUFFIXES := 
 # environment
 SNAP_REEXEC = 
 # environment
+ 
 _CE_M = 
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
- 
 # environment
 WINDOWPATH = 2
 # default
@@ -298,7 +298,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 84863
+VSCODE_PID = 178741
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -361,6 +361,6 @@ Makefile:
 # strcache performance: lookups = 28 / hit rate = 17%
 # hash-table stats:
 # Load=23/8192=0%, Rehash=0, Collisions=1/28=4%
-# Finished Make data base on Sat May  7 21:42:22 2022
+# Finished Make data base on Mon May  9 18:23:49 2022
 
  
