@@ -1,21 +1,16 @@
-from heapq import heapify, heappop
+# maintain bad indexies
+for _ in range(int(input())):
+    length = int(input())
+    nums = list(map(int,input().split()))
+    bad =  set()
+    good = []
+    for i in range(length-2,-1,-1):
+        if nums[i] > nums[i + 1]:
+            bad.add(nums[i])
+            if nums[i] in good:
+                while good[-1] != nums[i]:
+                    bad.add(good.pop())
+        else:
+            good.append(nums[i])
 
-
-def solution(nums):
-    if len(nums) == 1 or len(set(nums)) == 1:
-        return 0
-    
-    i=j = len(nums) - 1
-    
-    while nums[i] == nums[j]:
-        j -= 1
-    
-    hashset = set(nums[:j+1])
-    return len(hashset)
-
-
-if __name__ == "__main__":
-    q = int(input())
-    for _ in range(q):
-        input()
-        print(solution(list(map (int, input().split()))))
+    print(len(bad))
