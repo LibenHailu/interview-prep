@@ -1,0 +1,5 @@
+print(7 >> 1)
+print(bin(7))
+print(bin(7 >> 1))
+print(bin(~ 7))
+print(bin(-8))
